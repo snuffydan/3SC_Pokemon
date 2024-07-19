@@ -14,6 +14,7 @@
 		2FE3E1D02C4922E200A45E01 /* Pokemon_3SCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3E1CF2C4922E200A45E01 /* Pokemon_3SCTests.swift */; };
 		2FE3E1DA2C4922E200A45E01 /* Pokemon_3SCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3E1D92C4922E200A45E01 /* Pokemon_3SCUITests.swift */; };
 		2FE3E1DC2C4922E200A45E01 /* Pokemon_3SCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3E1DB2C4922E200A45E01 /* Pokemon_3SCUITestsLaunchTests.swift */; };
+		2FE3E1E92C4986FB00A45E01 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2FE3E1E82C4986FB00A45E01 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2FE3E1D52C4922E200A45E01 /* Pokemon_3SCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pokemon_3SCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE3E1D92C4922E200A45E01 /* Pokemon_3SCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_3SCUITests.swift; sourceTree = "<group>"; };
 		2FE3E1DB2C4922E200A45E01 /* Pokemon_3SCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_3SCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FE3E1E82C4986FB00A45E01 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		2FE3E1B22C4922E000A45E01 = {
 			isa = PBXGroup;
 			children = (
+				2FE3E1E82C4986FB00A45E01 /* .gitignore */,
 				2FE3E1BD2C4922E000A45E01 /* Pokemon_3SC */,
 				2FE3E1CE2C4922E200A45E01 /* Pokemon_3SCTests */,
 				2FE3E1D82C4922E200A45E01 /* Pokemon_3SCUITests */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FE3E1C62C4922E200A45E01 /* Preview Assets.xcassets in Resources */,
+				2FE3E1E92C4986FB00A45E01 /* .gitignore in Resources */,
 				2FE3E1C32C4922E200A45E01 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
