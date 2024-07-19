@@ -13,6 +13,7 @@ struct Pokemon: Codable, Identifiable, Hashable {
     let name: String
     let sprites: Sprites?
     let types: [PokemonType]?
+    let stats: [Stat]?
 
     var formattedName: String { name.capitalized }
     var typeNames: [String] { (types ?? []).map { $0.type.name.capitalized } }
@@ -34,6 +35,21 @@ struct PokemonType: Codable, Hashable {
 struct TypeDetails: Codable, Hashable {
     let name: String
     let url: String
+}
+
+struct Stat: Codable, Hashable {
+    let baseStat: Int
+    let effort: Int
+    let stat: StatDetails
+    
+    enum CodingKeys: String, CodingKey {
+        case baseStat = "base_stat"
+        case effort, stat
+    }
+}
+
+struct StatDetails: Codable, Hashable {
+    let name: String
 }
 
 

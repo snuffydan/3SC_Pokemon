@@ -15,7 +15,6 @@ class PokemonListViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var error: Error?
     
-    private let apiUrl = "https://pokeapi.co/api/v2/pokemon"
     private var nextPageUrl: String?
     private let pageSize = 20
     @Published private var totalPokemonCount: Int = 0
@@ -25,10 +24,11 @@ class PokemonListViewModel: ObservableObject {
         fetchPokemonList()
     }
     
+    /// Fetches a list of Pokemon from the base URL.
     public func fetchPokemonList(from urlString: String? = nil) {
         isLoading = true
         error = nil
-        let urlString = urlString ?? apiUrl
+        let urlString = urlString ?? API_URL
         
         AF.request(urlString)
             .validate()
@@ -40,7 +40,7 @@ class PokemonListViewModel: ObservableObject {
                 switch response.result {
                 case .success(let listResponse):
                     let newPokemon = listResponse.results.map {
-                        Pokemon(id: $0.id, name: $0.name, sprites: nil, types: nil)
+                        Pokemon(id: $0.id, name: $0.name, sprites: nil, types: nil, stats: nil)
                     }
                     if self.isFirstPage {
                         self.pokemon = newPokemon
@@ -58,6 +58,8 @@ class PokemonListViewModel: ObservableObject {
             }
     }
     
+    /// Fetches detailed information for each Pokemon in the provided list.
+    /// - Parameter pokemonList: An array of PokemonListItem objects.
     func fetchPokemonDetails(for pokemonList: [PokemonListItem]) {
         for pokemon in pokemonList {
             AF.request(pokemon.url)
@@ -77,11 +79,14 @@ class PokemonListViewModel: ObservableObject {
         }
     }
     
-    
+    /// Determines if more Pokemon should be loaded when a given Pokemon is displayed.
+    /// - Parameter pokemon: The Pokemon currently being displayed.
+    /// - Returns: True if more Pokemon should be loaded, false otherwise.
     func shouldLoadMore(_ pokemon: Pokemon) -> Bool {
         return self.pokemon.last?.id == pokemon.id && !isLoading && self.pokemon.count < self.totalPokemonCount
     }
     
+    /// Loads the next page of Pokemon from the API.
     func loadMore() {
         guard let nextPageUrl = nextPageUrl, !isLoading else { return }
         isLoading = true
