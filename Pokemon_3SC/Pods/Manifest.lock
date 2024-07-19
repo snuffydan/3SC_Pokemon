@@ -8,27 +8,19 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - SDWebImageSwiftUI (from `https://github.com/SDWebImage/SDWebImageSwiftUI.git`)
+  - SDWebImageSwiftUI
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - SDWebImage
-
-EXTERNAL SOURCES:
-  SDWebImageSwiftUI:
-    :git: https://github.com/SDWebImage/SDWebImageSwiftUI.git
-
-CHECKOUT OPTIONS:
-  SDWebImageSwiftUI:
-    :commit: 5d462f7530677ae0c2b9510c26383aa25ba48751
-    :git: https://github.com/SDWebImage/SDWebImageSwiftUI.git
+    - SDWebImageSwiftUI
 
 SPEC CHECKSUMS:
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
   SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
   SDWebImageSwiftUI: dcff3d05fd0579ff280221ae8856c34ac3b67f25
 
-PODFILE CHECKSUM: 2f8b1566d84e30dd8ffab5dcec8bd079b81254fc
+PODFILE CHECKSUM: a04e20d3318fe5515a290151d19e63526b5888ec
 
 COCOAPODS: 1.15.2

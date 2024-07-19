@@ -8,7 +8,7 @@ target 'Pokemon_3SC' do
   # Pods for Pokemon_3SC
   use_frameworks!
   pod 'Alamofire'
-  pod 'SDWebImageSwiftUI', :git => 'https://github.com/SDWebImage/SDWebImageSwiftUI.git'
+  pod 'SDWebImageSwiftUI'
 
   target 'Pokemon_3SCTests' do
     inherit! :search_paths
