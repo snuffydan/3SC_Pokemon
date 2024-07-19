@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Pokemon_3SC-Pokemon_3SCUITests/Pods-Pokemon_3SC-Pokemon_3SCUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SDWebImageSwiftUI/SDWebImageSwiftUI.framework
