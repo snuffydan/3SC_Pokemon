@@ -17,7 +17,7 @@ iOS 16.0+ / iPadOS 16.0+
 An internet connection is required for initial data fetching and image loading.
 
 ## Installation
-Clone this repository: git clone https://your-repository-url.git
+Clone this repository: git clone [https://your-repository-url.git](https://github.com/snuffydan/3SC_Pokemon)
 Open the project in Xcode.
 Build and run the app on your preferred simulator or device.
 
