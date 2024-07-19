@@ -12,14 +12,14 @@
 * Offline Caching: Images and Pokémon data are cached for offline viewing.
 
 ## Requirements
-Xcode 15 or later
-iOS 16.0+ / iPadOS 16.0+
-An internet connection is required for initial data fetching and image loading.
+* Xcode 15 or later
+* iOS 16.0+ / iPadOS 16.0+
+* An internet connection is required for initial data fetching and image loading.
 
 ## Installation
-Clone this repository: git clone [3 Sided Cube - Pokemon](https://github.com/snuffydan/3SC_Pokemon)
-Open the project in Xcode.
-Build and run the app on your preferred simulator or device.
+* Clone this repository: git clone [3 Sided Cube - Pokemon](https://github.com/snuffydan/3SC_Pokemon)
+* Open the project in Xcode.
+* Build and run the app on your preferred simulator or device.
 
 ## Usage
 Launch the app.
