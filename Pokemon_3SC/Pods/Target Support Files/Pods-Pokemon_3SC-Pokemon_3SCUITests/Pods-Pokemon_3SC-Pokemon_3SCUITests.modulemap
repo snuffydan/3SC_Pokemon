@@ -1,0 +1,6 @@
+framework module Pods_Pokemon_3SC_Pokemon_3SCUITests {
+  umbrella header "Pods-Pokemon_3SC-Pokemon_3SCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
