@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BFB2C87332975817EC15696 /* Pods_Pokemon_3SCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A2490F3527F084730A0E13 /* Pods_Pokemon_3SCTests.framework */; };
 		2F3A15562C499FAF00EAB917 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A15552C499FAF00EAB917 /* Pokemon.swift */; };
 		2F45F4DF2C4A4AA300A90FA9 /* PokemonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F45F4DE2C4A4AA300A90FA9 /* PokemonDetailView.swift */; };
 		2F45F4E32C4A899500A90FA9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F45F4E22C4A899500A90FA9 /* Constants.swift */; };
@@ -19,7 +20,8 @@
 		2FE3E1D02C4922E200A45E01 /* Pokemon_3SCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3E1CF2C4922E200A45E01 /* Pokemon_3SCTests.swift */; };
 		2FE3E1DA2C4922E200A45E01 /* Pokemon_3SCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3E1D92C4922E200A45E01 /* Pokemon_3SCUITests.swift */; };
 		2FE3E1DC2C4922E200A45E01 /* Pokemon_3SCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3E1DB2C4922E200A45E01 /* Pokemon_3SCUITestsLaunchTests.swift */; };
-
+		93D97E8DAE0A6215675C9843 /* Pods_Pokemon_3SC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC2BB96A398A6E550DDEBBC /* Pods_Pokemon_3SC.framework */; };
+		AC764F6FAAF6B7B0A680D381 /* Pods_Pokemon_3SC_Pokemon_3SCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9377837FAAE0E48449D9E8 /* Pods_Pokemon_3SC_Pokemon_3SCUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,14 @@
 		2FE3E1D52C4922E200A45E01 /* Pokemon_3SCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pokemon_3SCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE3E1D92C4922E200A45E01 /* Pokemon_3SCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_3SCUITests.swift; sourceTree = "<group>"; };
 		2FE3E1DB2C4922E200A45E01 /* Pokemon_3SCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_3SCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40C52CF0C901DED66B9FDF25 /* Pods-Pokemon_3SCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SCTests.release.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SCTests/Pods-Pokemon_3SCTests.release.xcconfig"; sourceTree = "<group>"; };
+		50E47ED91EB4FAE228A44F31 /* Pods-Pokemon_3SC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SC.debug.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SC/Pods-Pokemon_3SC.debug.xcconfig"; sourceTree = "<group>"; };
+		62844EBBEE9E3D83CDD8B688 /* Pods-Pokemon_3SC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SC.release.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SC/Pods-Pokemon_3SC.release.xcconfig"; sourceTree = "<group>"; };
+		7DFD5B1198678617D02E2856 /* Pods-Pokemon_3SC-Pokemon_3SCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SC-Pokemon_3SCUITests.release.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SC-Pokemon_3SCUITests/Pods-Pokemon_3SC-Pokemon_3SCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9324006FB80D2B2BA8907E0B /* Pods-Pokemon_3SCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SCTests.debug.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SCTests/Pods-Pokemon_3SCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2A2490F3527F084730A0E13 /* Pods_Pokemon_3SCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokemon_3SCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCECD1147ADDFA386221DBBF /* Pods-Pokemon_3SC-Pokemon_3SCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SC-Pokemon_3SCUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SC-Pokemon_3SCUITests/Pods-Pokemon_3SC-Pokemon_3SCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9377837FAAE0E48449D9E8 /* Pods_Pokemon_3SC_Pokemon_3SCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokemon_3SC_Pokemon_3SCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824275A5E20A517B5ED56FE1 /* Pods_Pokemon_3SC.framework in Frameworks */,
+				93D97E8DAE0A6215675C9843 /* Pods_Pokemon_3SC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50C32247B6966C4FE8C7D7E3 /* Pods_Pokemon_3SCTests.framework in Frameworks */,
+				2BFB2C87332975817EC15696 /* Pods_Pokemon_3SCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7685A4EA244BB04B3616C92D /* Pods_Pokemon_3SC_Pokemon_3SCUITests.framework in Frameworks */,
+				AC764F6FAAF6B7B0A680D381 /* Pods_Pokemon_3SC_Pokemon_3SCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				1FC2BB96A398A6E550DDEBBC /* Pods_Pokemon_3SC.framework */,
-				754079A8AA5E1D92CB3106C4 /* Pods_Pokemon_3SC_Pokemon_3SCUITests.framework */,
-				D092087773D22A6AA6554999 /* Pods_Pokemon_3SCTests.framework */,
+				CB9377837FAAE0E48449D9E8 /* Pods_Pokemon_3SC_Pokemon_3SCUITests.framework */,
+				A2A2490F3527F084730A0E13 /* Pods_Pokemon_3SCTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,12 +109,12 @@
 		1A64B79380E7B3F6F8BD5E68 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D9FBF0AA0ADF2D91537C747A /* Pods-Pokemon_3SC.debug.xcconfig */,
-				56575F8E5AD2B99ECEFAEAD8 /* Pods-Pokemon_3SC.release.xcconfig */,
-				5C79E8AE530894C470182404 /* Pods-Pokemon_3SC-Pokemon_3SCUITests.debug.xcconfig */,
-				9F48C0F0F383363262CC8151 /* Pods-Pokemon_3SC-Pokemon_3SCUITests.release.xcconfig */,
-				E9D76E452487B42A86B5B5F8 /* Pods-Pokemon_3SCTests.debug.xcconfig */,
-				7422E24EA477B42D6690AA09 /* Pods-Pokemon_3SCTests.release.xcconfig */,
+				50E47ED91EB4FAE228A44F31 /* Pods-Pokemon_3SC.debug.xcconfig */,
+				62844EBBEE9E3D83CDD8B688 /* Pods-Pokemon_3SC.release.xcconfig */,
+				BCECD1147ADDFA386221DBBF /* Pods-Pokemon_3SC-Pokemon_3SCUITests.debug.xcconfig */,
+				7DFD5B1198678617D02E2856 /* Pods-Pokemon_3SC-Pokemon_3SCUITests.release.xcconfig */,
+				9324006FB80D2B2BA8907E0B /* Pods-Pokemon_3SCTests.debug.xcconfig */,
+				40C52CF0C901DED66B9FDF25 /* Pods-Pokemon_3SCTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,7 +165,6 @@
 		2FE3E1B22C4922E000A45E01 = {
 			isa = PBXGroup;
 			children = (
-				2FE3E1E82C4986FB00A45E01 /* .gitignore */,
 				2FE3E1BD2C4922E000A45E01 /* Pokemon_3SC */,
 				2FE3E1CE2C4922E200A45E01 /* Pokemon_3SCTests */,
 				2FE3E1D82C4922E200A45E01 /* Pokemon_3SCUITests */,
@@ -323,7 +332,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FE3E1C62C4922E200A45E01 /* Preview Assets.xcassets in Resources */,
-				2FE3E1E92C4986FB00A45E01 /* .gitignore in Resources */,
 				2FE3E1C32C4922E200A45E01 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,7 +624,7 @@
 		};
 		2FE3E1E02C4922E200A45E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9FBF0AA0ADF2D91537C747A /* Pods-Pokemon_3SC.debug.xcconfig */;
+			baseConfigurationReference = 50E47ED91EB4FAE228A44F31 /* Pods-Pokemon_3SC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -646,7 +654,7 @@
 		};
 		2FE3E1E12C4922E200A45E01 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56575F8E5AD2B99ECEFAEAD8 /* Pods-Pokemon_3SC.release.xcconfig */;
+			baseConfigurationReference = 62844EBBEE9E3D83CDD8B688 /* Pods-Pokemon_3SC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -676,7 +684,7 @@
 		};
 		2FE3E1E32C4922E200A45E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9D76E452487B42A86B5B5F8 /* Pods-Pokemon_3SCTests.debug.xcconfig */;
+			baseConfigurationReference = 9324006FB80D2B2BA8907E0B /* Pods-Pokemon_3SCTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -696,7 +704,7 @@
 		};
 		2FE3E1E42C4922E200A45E01 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7422E24EA477B42D6690AA09 /* Pods-Pokemon_3SCTests.release.xcconfig */;
+			baseConfigurationReference = 40C52CF0C901DED66B9FDF25 /* Pods-Pokemon_3SCTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -716,7 +724,7 @@
 		};
 		2FE3E1E62C4922E200A45E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C79E8AE530894C470182404 /* Pods-Pokemon_3SC-Pokemon_3SCUITests.debug.xcconfig */;
+			baseConfigurationReference = BCECD1147ADDFA386221DBBF /* Pods-Pokemon_3SC-Pokemon_3SCUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -734,7 +742,7 @@
 		};
 		2FE3E1E72C4922E200A45E01 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F48C0F0F383363262CC8151 /* Pods-Pokemon_3SC-Pokemon_3SCUITests.release.xcconfig */;
+			baseConfigurationReference = 7DFD5B1198678617D02E2856 /* Pods-Pokemon_3SC-Pokemon_3SCUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
