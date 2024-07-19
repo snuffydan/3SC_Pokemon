@@ -17,9 +17,7 @@
 		2FE3E1D02C4922E200A45E01 /* Pokemon_3SCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3E1CF2C4922E200A45E01 /* Pokemon_3SCTests.swift */; };
 		2FE3E1DA2C4922E200A45E01 /* Pokemon_3SCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3E1D92C4922E200A45E01 /* Pokemon_3SCUITests.swift */; };
 		2FE3E1DC2C4922E200A45E01 /* Pokemon_3SCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3E1DB2C4922E200A45E01 /* Pokemon_3SCUITestsLaunchTests.swift */; };
-		50C32247B6966C4FE8C7D7E3 /* Pods_Pokemon_3SCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D092087773D22A6AA6554999 /* Pods_Pokemon_3SCTests.framework */; };
-		7685A4EA244BB04B3616C92D /* Pods_Pokemon_3SC_Pokemon_3SCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754079A8AA5E1D92CB3106C4 /* Pods_Pokemon_3SC_Pokemon_3SCUITests.framework */; };
-		824275A5E20A517B5ED56FE1 /* Pods_Pokemon_3SC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC2BB96A398A6E550DDEBBC /* Pods_Pokemon_3SC.framework */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,14 +52,6 @@
 		2FE3E1D52C4922E200A45E01 /* Pokemon_3SCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pokemon_3SCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE3E1D92C4922E200A45E01 /* Pokemon_3SCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_3SCUITests.swift; sourceTree = "<group>"; };
 		2FE3E1DB2C4922E200A45E01 /* Pokemon_3SCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_3SCUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		56575F8E5AD2B99ECEFAEAD8 /* Pods-Pokemon_3SC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SC.release.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SC/Pods-Pokemon_3SC.release.xcconfig"; sourceTree = "<group>"; };
-		5C79E8AE530894C470182404 /* Pods-Pokemon_3SC-Pokemon_3SCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SC-Pokemon_3SCUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SC-Pokemon_3SCUITests/Pods-Pokemon_3SC-Pokemon_3SCUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7422E24EA477B42D6690AA09 /* Pods-Pokemon_3SCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SCTests.release.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SCTests/Pods-Pokemon_3SCTests.release.xcconfig"; sourceTree = "<group>"; };
-		754079A8AA5E1D92CB3106C4 /* Pods_Pokemon_3SC_Pokemon_3SCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokemon_3SC_Pokemon_3SCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F48C0F0F383363262CC8151 /* Pods-Pokemon_3SC-Pokemon_3SCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SC-Pokemon_3SCUITests.release.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SC-Pokemon_3SCUITests/Pods-Pokemon_3SC-Pokemon_3SCUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D092087773D22A6AA6554999 /* Pods_Pokemon_3SCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokemon_3SCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9FBF0AA0ADF2D91537C747A /* Pods-Pokemon_3SC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SC.debug.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SC/Pods-Pokemon_3SC.debug.xcconfig"; sourceTree = "<group>"; };
-		E9D76E452487B42A86B5B5F8 /* Pods-Pokemon_3SCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon_3SCTests.debug.xcconfig"; path = "Target Support Files/Pods-Pokemon_3SCTests/Pods-Pokemon_3SCTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +156,7 @@
 		2FE3E1B22C4922E000A45E01 = {
 			isa = PBXGroup;
 			children = (
+				2FE3E1E82C4986FB00A45E01 /* .gitignore */,
 				2FE3E1BD2C4922E000A45E01 /* Pokemon_3SC */,
 				2FE3E1CE2C4922E200A45E01 /* Pokemon_3SCTests */,
 				2FE3E1D82C4922E200A45E01 /* Pokemon_3SCUITests */,
@@ -335,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FE3E1C62C4922E200A45E01 /* Preview Assets.xcassets in Resources */,
+				2FE3E1E92C4986FB00A45E01 /* .gitignore in Resources */,
 				2FE3E1C32C4922E200A45E01 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
