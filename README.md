@@ -32,5 +32,5 @@ Pull down to refresh the list.
 This app is built using SwiftUI, which makes it easy to create user interfaces that work seamlessly across multiple Apple platforms. The layout automatically adapts to different screen sizes and orientations, providing a consistent experience on both iPhones and iPads.
 
 ## Credits
-API: PokéAPI
-Image Library: SDWebImageSwiftUI
+* API: PokéAPI
+* Image Library: SDWebImageSwiftUI
