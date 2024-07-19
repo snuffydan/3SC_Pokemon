@@ -19,10 +19,12 @@ struct PokemonDetailView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 200, height: 200)
+                        .accessibilityLabel(pokemon.formattedName)
                 }
                 
                 Text(pokemon.formattedName)
                     .font(.title)
+                    .accessibilityAddTraits(.isHeader)
 
                 TypeListView(types: pokemon.types ?? [])
 
@@ -31,6 +33,10 @@ struct PokemonDetailView: View {
             .padding()
             .navigationTitle(pokemon.formattedName)
             .navigationBarTitleDisplayMode(.inline)
+            .accessibilityAction(.magicTap) {
+                let announcement = "This page has scrollable content of \(pokemon.formattedName) Pokemon."
+                UIAccessibility.post(notification: .announcement, argument: announcement)
+            }
         }
     }
 }
