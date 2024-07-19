@@ -16,12 +16,14 @@ struct PokemonListView: View {
             ZStack {
                 List {
                     ForEach(viewModel.pokemon) { pokemon in
-                        PokemonRow(pokemon: pokemon)
-                            .onAppear {
-                                if viewModel.shouldLoadMore(pokemon) {
-                                    viewModel.loadMore()
-                                }
+                        NavigationLink(destination: PokemonDetailView(pokemon: pokemon)) {
+                            PokemonRow(pokemon: pokemon)
+                        }
+                        .onAppear {
+                            if viewModel.shouldLoadMore(pokemon) {
+                                viewModel.loadMore()
                             }
+                        }
                     }
                     if viewModel.isLoading {
                         HStack {
@@ -55,9 +57,7 @@ struct PokemonRow: View {
                 } placeholder: {
                     Rectangle().foregroundColor(.gray)
                 }
-                .onSuccess { image, data, cacheType in
-                    // Success
-                }
+                .onSuccess { image, data, cacheType in }
                 .indicator(.activity)
                 .transition(.fade(duration: 0.5))
                 .scaledToFit()

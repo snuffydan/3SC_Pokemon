@@ -40,7 +40,7 @@ class PokemonListViewModel: ObservableObject {
                 switch response.result {
                 case .success(let listResponse):
                     let newPokemon = listResponse.results.map {
-                        Pokemon(id: $0.id, name: $0.name, sprites: nil, types: nil)
+                        Pokemon(id: $0.id, name: $0.name, sprites: nil, types: nil, stats: nil)
                     }
                     if self.isFirstPage {
                         self.pokemon = newPokemon
