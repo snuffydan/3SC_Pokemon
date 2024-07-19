@@ -11,6 +11,7 @@ import SDWebImageSwiftUI
 struct PokemonDetailView: View {
     let pokemon: Pokemon
     
+    /// Creates the view for displaying detailed information about a Pokemon.
     var body: some View {
         ScrollView {
             VStack(alignment: .center, spacing: 20) {

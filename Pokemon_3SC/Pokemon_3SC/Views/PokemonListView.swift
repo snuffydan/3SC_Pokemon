@@ -11,6 +11,7 @@ import SDWebImageSwiftUI
 struct PokemonListView: View {
     @ObservedObject var viewModel = PokemonListViewModel()
     
+    /// Creates the main view for displaying the list of Pokemon.
     var body: some View {
         NavigationStack {
             ZStack {
